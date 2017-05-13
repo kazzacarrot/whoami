@@ -1,0 +1,27 @@
+{
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": "Free code camp API challenge 2. Tell the user their IP address, OS, and language.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazzacarrot/whoami.git"
+  },
+  "author": "Karen McCulloch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazzacarrot/whoami/issues"
+  },
+  "homepage": "https://github.com/kazzacarrot/whoami#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
